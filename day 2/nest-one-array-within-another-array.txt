@@ -1,0 +1,2 @@
+// Only change code below this line
+var myArray = [["Math Period", 1], ["Latin Period", 3]];
