@@ -1,0 +1,2 @@
+// Comments can help communication.
+/* among your peers and other people you communicate with in your code */

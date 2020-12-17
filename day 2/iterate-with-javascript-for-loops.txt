@@ -1,0 +1,7 @@
+// Setup
+var myArray = [];
+
+// Only change code below this line
+for (var n = 1; n < 6; n++) {
+    myArray.push(n);
+}

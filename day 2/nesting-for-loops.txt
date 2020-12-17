@@ -1,0 +1,13 @@
+function multiplyAll(arr) {
+  var product = 1;
+  // Only change code below this line
+for (var n = 0; n<arr.length; n++){
+  for (var m = 0; m<arr[n].length; m++){
+    product = product * arr[n][m];
+  }
+}
+  // Only change code above this line
+  return product;
+}
+
+multiplyAll([[1,2],[3,4],[5,6,7]]);

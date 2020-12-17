@@ -1,0 +1,13 @@
+// Setup
+var outerWear = "T-Shirt";
+
+function myOutfit() {
+  // Only change code below this line
+
+  var outerWear = "sweater"; 
+/* this helps override T-shirt in the initial*/ 
+  // Only change code above this line
+  return outerWear;
+}
+
+myOutfit();
