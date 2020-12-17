@@ -1,1 +1,0 @@
-var myList = [["Bubblegum", 1], ["Milk", 5], ["Eggs", 5], ["Bread", 4], ["Cheese", 5]];
