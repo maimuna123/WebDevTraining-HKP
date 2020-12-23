@@ -1,0 +1,74 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!DOCTYPE html>
+<html>
+  <!-- title --> 
+  <h1 id="title">Customer Service Form </h1>
+  <!-- paragraph -->
+  <body>
+  <p id="description">Thank you for shopping with us! Take this quick form to let us know more about you and how we can improve our service!</p>
+  
+  <form id="survey-form">
+    <!-- name -->
+    <div class="input-group">
+      <label for="name" id="name-label"> What is your name?
+        <input type="name" id="name" placeholder="Enter name" required> 
+      </label> 
+    </div>
+    <!-- email -->
+    <div class="input-group">
+      <label for="email" id="email-label"> Provide your email if you want to be added to our subscription list:</label>
+      <input type="email" id="email" placeholder="Enter your email address" required>
+      </div>
+  <!-- order number -->
+    <div class="input-group">
+      <label for="number" id="number-label"> Enter your 3 digit order number
+        <input type="number" id="number" min="100" max="999" placeholder="Enter your 3 digit order number" required> </label> </div>
+  <!-- rating --> 
+    <div class="input-group">
+      <label for="select">Give our store a rating from 1-5 in terms of our service
+      </label>
+      <select id="dropdown">
+        <option value="rating-1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+    </div>
+  <!-- how much the order was liked -->
+    <div class="input-group">
+      <label for="recommendation"> How much did you like your order? </label>
+     <input type="radio" name="like-order" value="10">10
+      <input type="radio" name="like-order" value="9">9
+      <input type="radio" name="like-order" value="8">8
+      <input type="radio" name="like-order" value="7">7
+      <input type="radio" name="like-order" value="6">6
+      <input type="radio" name="like-order" value="5">5
+      <input type="radio" name="like-order" value="4">4
+      <input type="radio" name="like-order" value="3">3
+      <input type="radio" name="like-order" value="2">2<input type="radio" name="like-order" value="1">1 
+    </div>
+    <div class="input-group"> Shipping Opinion:  <label for="product">
+      <input id="product" type="checkbox" name="shipping"
+value = "shipping"> Fast Shipping
+      <input id="product" type="checkbox" name="slow"
+value="slow "> Slow Shipping 
+      </label>
+    </div>  
+    <!-- customer feedback -->
+    <div class="input-group">
+      <label for="text-area"> What would you like to tell us?</label>
+      <textarea rows="1" wrap="soft"></textarea>
+      <button type="submit" id="submit"> Submit </button>
+  </form>
+    </body>
+</html>
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->

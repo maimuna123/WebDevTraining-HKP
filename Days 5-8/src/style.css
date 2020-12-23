@@ -1,0 +1,23 @@
+h1{
+  color: lightblue;
+  background-color: teal;
+  font-family: Trebuchet MS;
+}
+body{
+  color: teal;
+  background-color:lightblue;
+  padding: 20px;
+  font-family: Tahoma;
+}
+form {
+  padding: 20px;
+  align-items: flex-align;
+}
+.input-group {
+  padding: 10px;
+  
+}
+button{
+  background-color: teal;
+  color: lightblue;
+}
