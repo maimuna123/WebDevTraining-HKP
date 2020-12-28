@@ -1,0 +1,10 @@
+const JSX = 
+<div>
+<h1>Reasons why people should get a cat</h1>
+<p> Here are a few  reasons listed as to why cats are the superior pet: </p>
+    <ul>
+    <li> They are adorable and can make you happy. </li>
+    <li> They are very independant as well! </li>
+    <li> They are proven to help lower anxiety levels for pet owners, because they are such low maintenance.</li>
+    </ul>
+</div>
