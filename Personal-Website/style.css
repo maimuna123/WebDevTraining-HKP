@@ -20,6 +20,12 @@ h1 {
   left: 20%;
   right: 20%;
 }
+img{
+  padding: 40px;
+}
+li{
+  padding:10px;
+}
 h2 {
   letter-spacing: 1px;
   font-size: 55px;
@@ -33,19 +39,17 @@ h3 {
   letter-spacing: 1px;
   font-size: 25px;
   font-family: "Trebuchet MS", sans-serif;
-  color: rgb(59, 6, 6);
+  color: rrgb(59, 6, 6);
   text-align: center;
   line-height: 1.3em;
   padding: 20px;
 }
-
 p a {
   color: rgb(59, 6, 6);
   text-decoration: none;
   font-family: "Lucida Console", Courier, monospace;
-  padding: 7px;
+  padding: 5px;
 }
-
 ul.nav-bar {
   list-style-type: none;
   margin: 0;
@@ -55,27 +59,23 @@ ul.nav-bar {
   border-style: solid;
   border-color: rgb(228, 210, 210);
 }
-
 li.nav {
   float: right;
   font-size: 15px;
 }
-
 li.nav a {
   display: block;
   color: rgb(228, 210, 210);
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 10px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
 }
-
 li.nav a:hover {
   background-color: rgb(228, 210, 210);
   color: rgb(59, 6, 6);
 }
-
 .flex-container {
   display: flex; 
   flex-direction: row; 
@@ -89,14 +89,12 @@ li.nav a:hover {
   right: 20%;
   top: 40%; 
 }
-
 .text-section {
   background-color: rgb(228, 210, 210);
   padding: 20px 45px;
   margin: 35px;
   text-align: center;
 }
-
 .image-one {
   position: relative;
   background-position: center;
