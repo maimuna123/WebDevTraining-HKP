@@ -1,0 +1,120 @@
+body,
+html {
+  height: 100%;
+  font-size: 20px;  
+  font-family: "Roboto", sans-serif;  
+  line-height: 1.5em;  
+  margin: 0em;
+  color: rgb(59, 6, 6);  
+  background-color: rgb(235, 217, 217); 
+  box-sizing: border-box;
+}
+h1 {
+  letter-spacing: 5px;
+  font-size: 50px;
+  font-family: "Tahoma", sans-serif;
+  color: rgb(59, 6, 6);
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  right: 20%;
+}
+h2 {
+  letter-spacing: 1px;
+  font-size: 55px;
+  font-family: "Tahoma", sans-serif;
+  color: rgb(59, 6, 6);
+  text-align: center;
+  line-height: 1.3em;
+  padding: 10px;
+}
+h3 {
+  letter-spacing: 1px;
+  font-size: 25px;
+  font-family: "Trebuchet MS", sans-serif;
+  color: rgb(59, 6, 6);
+  text-align: center;
+  line-height: 1.3em;
+  padding: 20px;
+}
+
+p a {
+  color: rgb(59, 6, 6);
+  text-decoration: none;
+  font-family: "Lucida Console", Courier, monospace;
+  padding: 7px;
+}
+
+ul.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(59, 6, 6);
+  border-style: solid;
+  border-color: rgb(228, 210, 210);
+}
+
+li.nav {
+  float: right;
+  font-size: 15px;
+}
+
+li.nav a {
+  display: block;
+  color: rgb(228, 210, 210);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+li.nav a:hover {
+  background-color: rgb(228, 210, 210);
+  color: rgb(59, 6, 6);
+}
+
+.flex-container {
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: nowrap; 
+  justify-content: center; 
+  align-items: center; 
+  background-color: rgb(228, 210, 210);
+  padding: 5px;
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  top: 40%; 
+}
+
+.text-section {
+  background-color: rgb(228, 210, 210);
+  padding: 20px 45px;
+  margin: 35px;
+  text-align: center;
+}
+
+.image-one {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(59, 6, 6);
+  background-size: cover;
+  min-height: 100%; 
+  background-attachment: fixed;
+}
+.image-one {
+  background-image: url("https://live.staticflickr.com/7801/33077843338_a6e39d2af4_h.jpg");
+}
+footer{
+  padding: 4rem 0 2rem 0;
+  background: rgb(59, 6, 6);
+  text-align: center;
+  color:rgb(228, 210, 210);
+}
+@media mediatype and (max-width: 700px) {
+flex-wrap: wrap;
+top: 20%;}
