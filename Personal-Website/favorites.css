@@ -1,19 +1,18 @@
-body,
 html {
   height: 100%;
   font-size: 20px;  
   font-family: "Roboto", sans-serif;  
   line-height: 1.5em;  
   margin: 0em;
-  color: rgb(59, 6, 6);  
-  background-color: rgb(235, 217, 217); 
+  color: rgb(11, 51, 97);  
+  background-color: rgb(195, 216, 230); 
   box-sizing: border-box;
 }
 h1 {
   letter-spacing: 5px;
   font-size: 50px;
   font-family: "Tahoma", sans-serif;
-  color: rgb(59, 6, 6);
+  color: rgb(11, 51, 97);
   text-align: center;
   position: absolute;
   top: 40%;
@@ -24,13 +23,13 @@ img{
   padding: 40px;
 }
 li{
-  padding:10px;
+  padding:0px;
 }
 h2 {
   letter-spacing: 1px;
   font-size: 55px;
   font-family: "Tahoma", sans-serif;
-  color: rgb(59, 6, 6);
+  color: rgb(11, 51, 97);
   text-align: center;
   line-height: 1.3em;
   padding: 10px;
@@ -39,24 +38,23 @@ h3 {
   letter-spacing: 1px;
   font-size: 25px;
   font-family: "Trebuchet MS", sans-serif;
-  color: rrgb(59, 6, 6);
+  color: rgb(11, 51, 97);
   text-align: center;
   line-height: 1.3em;
   padding: 20px;
 }
 p a {
-  color: rgb(59, 6, 6);
+  color: rgb(11, 51, 97);
   text-decoration: none;
   font-family: "Lucida Console", Courier, monospace;
   padding: 5px;
 }
-
 ul.nav-bar {
   list-style-type: none;
   overflow: hidden;
-  background-color: rgb(59, 6, 6);
+  background-color: rgb(11, 51, 97);
   border-style: solid;
-  border-color: rgb(228, 210, 210);
+  border-color: rgb(216, 231, 240);
 }
 li.nav {
   float: right;
@@ -64,7 +62,7 @@ li.nav {
 }
 li.nav a {
   display: block;
-  color: rgb(228, 210, 210);
+  color: rgb(216, 231, 240);
   text-align: center;
   padding: 10px 10px;
   text-decoration: none;
@@ -72,8 +70,8 @@ li.nav a {
   font-weight: bold;
 }
 li.nav a:hover {
-  background-color: rgb(228, 210, 210);
-  color: rgb(59, 6, 6);
+  background-color: rgb(216, 231, 240);
+  color: rgb(11, 51, 97);
 }
 .flex-container {
   display: flex; 
@@ -81,35 +79,24 @@ li.nav a:hover {
   flex-wrap: nowrap; 
   justify-content: center; 
   align-items: center; 
-  background-color: rgb(228, 210, 210);
+  background-color: rgb(216, 231, 240);
   position: absolute;
   left: 20%;
   right: 20%;
   top: 40%; 
 }
 .text-section {
-  background-color: rgb(228, 210, 210);
+  background-color: rgb(216, 231, 240);
   padding: 10px 35px;
   margin: 25px;
   text-align: center;
 }
-.image-one {
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: rgb(59, 6, 6);
-  background-size: cover;
-  min-height: 100%; 
-  background-attachment: fixed;
-}
-.image-one {
-  background-image: url("https://live.staticflickr.com/7801/33077843338_a6e39d2af4_h.jpg");
-}
+
 footer{
   padding: 4rem 0 2rem 0;
-  background: rgb(59, 6, 6);
+  background: rgb(11, 51, 97);
   text-align: center;
-  color:rgb(228, 210, 210);
+  color:rgb(216, 231, 240);
 }
 @media mediatype and (max-width: 700px) {
 flex-wrap: wrap;

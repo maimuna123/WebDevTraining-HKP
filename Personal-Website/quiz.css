@@ -1,0 +1,37 @@
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 4em;
+}
+
+h1 {
+  font-style: italic;
+  color: #9b599b;
+}
+
+h2 {
+  margin-top: 2em; 
+}
+.question {
+  display: flex;
+  margin-top: 2em;
+}
+button {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 15px;
+  color: #9b599b;
+  background-color: rgb(244, 235, 245);
+  justify-content: space-around;
+}
+img{
+  padding: 10px;
+  border: 5px solid #9b599b;
+  margin: 5px;
+  border-radius: 25px;;
+}
+body {
+  background-color: rgb(238, 216, 240);
+}
+@media mediatype and (max-width: 700px) {
+flex-wrap: wrap;
+top: 20%;
+}
