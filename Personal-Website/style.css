@@ -29,7 +29,7 @@ li{
 h2 {
   letter-spacing: 1px;
   font-size: 55px;
-  font-family: "Tahoma", sans-serif;
+  font-family: Garamound;
   color: rgb(59, 6, 6);
   text-align: center;
   line-height: 1.3em;
@@ -37,12 +37,25 @@ h2 {
 }
 h3 {
   letter-spacing: 1px;
-  font-size: 25px;
-  font-family: "Trebuchet MS", sans-serif;
-  color: rrgb(59, 6, 6);
+  font-size: 45px;
+  font-family: Garamond; 
+  color: rgb(59, 6, 6);
   text-align: center;
   line-height: 1.3em;
   padding: 20px;
+}
+h4 {
+  letter-spacing: 1px;
+  font-size: 55px;
+  font-family: Georgia, serif;
+  color: rgb(59, 6, 6);
+  text-align: center;
+  line-height: 1.3em;
+  padding: 20px;
+  background-color: rgb(245, 244, 244);
+}
+p{
+  font-size: 15px;
 }
 p a {
   color: rgb(59, 6, 6);
@@ -54,9 +67,9 @@ p a {
 ul.nav-bar {
   list-style-type: none;
   overflow: hidden;
-  background-color: rgb(59, 6, 6);
+  background-color: rgb(235, 217, 217);
   border-style: solid;
-  border-color: rgb(228, 210, 210);
+  border-color: rgb(235, 217, 217);
 }
 li.nav {
   float: right;
@@ -64,16 +77,18 @@ li.nav {
 }
 li.nav a {
   display: block;
-  color: rgb(228, 210, 210);
+  color: rgb(59, 6, 6);
   text-align: center;
   padding: 10px 10px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
+  font-family:'Times New Roman', Times, serif ;
+  font-size: 15px;
 }
 li.nav a:hover {
-  background-color: rgb(228, 210, 210);
-  color: rgb(59, 6, 6);
+  background-color: rgb(235, 217, 217);
+  color: rgb(190, 124, 124);
 }
 .flex-container {
   display: flex; 
@@ -111,6 +126,20 @@ footer{
   text-align: center;
   color:rgb(228, 210, 210);
 }
+@media only screen and (max-width: 480px) {
+  .flex-container-action {flex-wrap: nowrap;}}
 @media mediatype and (max-width: 700px) {
-flex-wrap: wrap;
-top: 20%;}
+  flex-wrap: wrap;
+  top: 20%;}
+@media only screen and (min-width: 701px) {
+  .flex-container-action {flex-wrap: wrap;}
+  .left-container {
+    width: 50%;
+    margin-right: 10%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .flex-container-action {flex-wrap: nowrap;}
+}
+@media only screen and (min-width: 1250px) {
+  .flex-container-action {flex-wrap: nowrap;}} 

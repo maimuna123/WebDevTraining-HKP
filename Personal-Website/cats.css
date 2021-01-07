@@ -5,7 +5,7 @@ html {
   line-height: 1.5em;  
   margin: 0em;
   color: rgb(138, 84, 13);  
-  background-color: rgb(220, 193, 175); 
+  background-color: rgb(228, 216, 197); 
   box-sizing: border-box;
 }
 h1 {
@@ -23,12 +23,13 @@ img{
   padding: 40px;
 }
 li{
-  padding:10px;
+  padding:0px;
+  font-size:15px;
 }
 h2 {
   letter-spacing: 1px;
   font-size: 55px;
-  font-family: "Tahoma", sans-serif;
+  font-family: Garamound;
   color: rgb(138, 84, 13);
   text-align: center;
   line-height: 1.3em;
@@ -43,37 +44,48 @@ h3 {
   line-height: 1.3em;
   padding: 20px;
 }
+p{
+  font-size:15px;
+}
 p a {
   color: rgb(138, 84, 13);
   text-decoration: none;
   font-family: "Lucida Console", Courier, monospace;
   padding: 5px;
+  font-size: 15px;
+}
+p1{
+  color: rgb(138, 84, 13);
+  font-size: 10px;
 }
 ul.nav-bar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(138, 84, 13);
+  background-color: rgb(228, 216, 197);
   border-style: solid;
-  border-color: rgb(235, 226, 210);
+  border-color: rgb(228, 216, 197);
 }
 li.nav {
   float: right;
   font-size: 15px;
-  padding:0px;
+  
 }
 li.nav a {
   display: block;
-  color: rgb(248, 242, 229);
+  color: rgb(114, 70, 13);
   text-align: center;
   padding: 10px 10px;
   text-decoration: none;
   font-weight: bold;
+  font-family:'Times New Roman', Times, serif ;
+  font-size: 15px;
+  text-transform: uppercase;
 }
 li.nav a:hover {
-  background-color: rgb(235, 226, 210);
-  color: rgb(138, 84, 13);
+  background-color: rgb(228, 216, 197);
+  color: rgb(190, 158, 116);
 }
 .flex-container {
   display: flex; 
@@ -181,6 +193,20 @@ footer{
   text-align: center;
   color:rgb(235, 226, 210);
 } 
+@media only screen and (max-width: 480px) {
+  .flex-container-action {flex-wrap: nowrap;}}
 @media mediatype and (max-width: 700px) {
-flex-wrap: wrap;
-top: 20%;}
+  flex-wrap: wrap;
+  top: 20%;}
+@media only screen and (min-width: 701px) {
+  .flex-container-action {flex-wrap: wrap;}
+  .left-container {
+    width: 50%;
+    margin-right: 10%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .flex-container-action {flex-wrap: nowrap;}
+}
+@media only screen and (min-width: 1250px) {
+  .flex-container-action {flex-wrap: nowrap;}} 

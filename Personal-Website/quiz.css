@@ -5,7 +5,7 @@ body {
 
 h1 {
   font-style: italic;
-  color: #9b599b;
+  color: #b993b9;
 }
 
 h2 {
@@ -21,6 +21,9 @@ button {
   color: #9b599b;
   background-color: rgb(244, 235, 245);
   justify-content: space-around;
+  border-color: rgb(244, 235, 245);
+  border-block-end-width: 5px;
+  padding:5px;
 }
 img{
   padding: 10px;
@@ -29,9 +32,22 @@ img{
   border-radius: 25px;;
 }
 body {
-  background-color: rgb(238, 216, 240);
+  background-color: rgb(248, 242, 248);
 }
+@media only screen and (max-width: 480px) {
+  .flex-container-action {flex-wrap: nowrap;}}
 @media mediatype and (max-width: 700px) {
-flex-wrap: wrap;
-top: 20%;
+  flex-wrap: wrap;
+  top: 20%;}
+@media only screen and (min-width: 701px) {
+  .flex-container-action {flex-wrap: wrap;}
+  .left-container {
+    width: 50%;
+    margin-right: 10%;
+  }
 }
+@media only screen and (min-width: 1000px) {
+  .flex-container-action {flex-wrap: nowrap;}
+}
+@media only screen and (min-width: 1250px) {
+  .flex-container-action {flex-wrap: nowrap;}} 
