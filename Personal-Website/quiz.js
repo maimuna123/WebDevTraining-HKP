@@ -45,7 +45,7 @@ q4a4.addEventListener("click", Monica);
 function Joey() {
   JoeyScore += 1;
   questionCount += 1;
-  //("One Point to Joey!");
+  //("One Point to Joey");
   if (questionCount>=4){
   updateResult();
   }
@@ -53,7 +53,7 @@ function Joey() {
 function Rachel() {
   RachelScore += 1;
   questionCount += 1;
-  //("One Point to Rachel!");
+  //("One Point to Rachel");
   if (questionCount>=4){
   updateResult();}
 }
@@ -61,7 +61,7 @@ function Rachel() {
 function Ross() {
   RossScore += 1;
   questionCount += 1;
-  //("One Point to Ross!");
+  //("One Point to Ross");
   if (questionCount>=4){
   updateResult();
   }
@@ -70,7 +70,7 @@ function Ross() {
 function Monica() {
   MonicaScore += 1;
   questionCount += 1;
-  //("One Point to Monica!");
+  //("One Point to Monica");
   if (questionCount>=4){
   updateResult();
   }
